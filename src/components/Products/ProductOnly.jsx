@@ -29,7 +29,7 @@ const ProductOnly = () => {
 
     return ( 
         <div>
-            <Product {...data} />
+            <P  roduct {...data} />
             <Products products={related} amount={5} title="RELATED PRODUCTS" />
         </div>
     )
