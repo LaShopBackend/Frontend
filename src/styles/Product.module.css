@@ -1,0 +1,168 @@
+.product {
+  display: flex;
+  flex-grow: 1;
+  max-width: calc(100% - 324px);
+  padding: 24px;
+  column-gap: 32px;
+  color: var(--light);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+}
+
+.current {
+  width: 500px;
+  height: 500px;
+  margin-block-start: 40px;
+  margin-left: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.images-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.image {
+  width: 141px;
+  height: 141px;
+  margin-block-start: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.price {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0 20px 0;
+}
+
+.color,
+.sizes {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.sizes {
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.color span,
+.sizes span,
+.price span {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--dark-sea);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.size {
+  padding: 4px 8px;
+  border-radius: 8px; 
+  background: var(--bg);
+  cursor: pointer;
+}
+
+.size:hover,
+.size.active {
+  background: var(--violet);
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--grey);
+}
+
+.actions {
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-block-end: 40px;
+  display: flex;
+  column-gap: 10px;
+  place-items: center;
+}
+
+.favourite {
+  font-size: 20px;
+  line-height: 25px;
+  background: var(--dark-sea);
+  border-radius: 6px;
+}
+
+.favourite:hover {
+  background: #7a8690;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--dark-sea);
+  margin-top: auto;
+}
+
+.add {
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  background: var(--violet);
+}
+
+.favourite:hover, 
+.add:hover {
+  background: #614082;
+}
+
+.add:disabled {
+  font-size: 20px;
+  line-height: 25px;
+  cursor: not-allowed;
+  background: var(--bg);
+}
+
+.container {
+  margin-bottom: 50px; /* Высота пустого места внизу в пикселях */
+}

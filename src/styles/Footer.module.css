@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.logo {
+  width: 61px;
+}
+
+.logo a {
+  height: 100%;
+}
+
+.rights {
+  color: var(--dark-sea);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.rights a {
+  color: var(--violet);
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.socials svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--dark-sea);
+}
+
+.socials svg:hover {
+  fill: var(--violet);
+}
+
+
+.title {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  /*color: var(--bg);*/
+  color: var(--light);
+}
